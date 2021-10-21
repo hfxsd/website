@@ -41,11 +41,11 @@ Available Commands:
 
 Flags:
   -h, --help       help for jvm
-      --pid int    the pid of Java process which need to attach
-      --port int   the port of agent server (default 9288)
+      --pid int    the pid of Java process which needs to attach
+      --port int   the port of agent server (9288 by default)
 
 Global Flags:
-      --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
+      --log-level string   the log level of chaosd. The value can be 'debug', 'info', 'warn' and 'error'
       --uid string         the experiment ID
 
 Use "chaosd attack jvm [command] --help" for more information about a command.
@@ -76,9 +76,9 @@ Flags:
   -m, --method string      the method name in Java class
 
 Global Flags:
-      --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
-      --pid int            the pid of Java process which need to attach
-      --port int           the port of agent server (default 9288)
+      --log-level string   the log level of chaosd. The value can be 'debug', 'info', 'warn' and 'error'
+      --pid int            the pid of Java process which needs to attach
+      --port int           the port of agent server (9288 by default)
       --uid string         the experiment ID
 ```
 
@@ -132,9 +132,9 @@ Flags:
   -h, --help   help for gc
 
 Global Flags:
-      --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
-      --pid int            the pid of Java process which need to attach
-      --port int           the port of agent server (default 9288)
+      --log-level string   the log level of chaosd. The value can be 'debug', 'info', 'warn' and 'error'
+      --pid int            the pid of Java process which needs to attach
+      --port int           the port of agent server (9288 by default)
       --uid string         the experiment ID
 ```
 
@@ -184,9 +184,9 @@ Flags:
   -m, --method string   the method name in Java class
 
 Global Flags:
-      --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
-      --pid int            the pid of Java process which need to attach
-      --port int           the port of agent server (default 9288)
+      --log-level string   the log level of chaosd. The value can be 'debug', 'info', 'warn' and 'error'
+      --pid int            the pid of Java process which needs to attach
+      --port int           the port of agent server (9288 by default)
       --uid string         the experiment ID
 ```
 
@@ -239,12 +239,12 @@ Flags:
   -c, --class string    Java class name
   -h, --help            help for return
   -m, --method string   the method name in Java class
-      --value string    the return value for action 'return', only support number and string type now
+      --value string    the return value for action 'return'. Only supports number and string types.
 
 Global Flags:
-      --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
-      --pid int            the pid of Java process which need to attach
-      --port int           the port of agent server (default 9288)
+      --log-level string   the log level of chaosd. The value can be 'debug', 'info', 'warn' and 'error'
+      --pid int            the pid of Java process which needs to attach
+      --port int           the port of agent server (9288 by default)
       --uid string         the experiment ID
 ```
 
@@ -303,8 +303,8 @@ Flags:
 
 Global Flags:
       --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
-      --pid int            the pid of Java process which need to attach
-      --port int           the port of agent server (default 9288)
+      --pid int            the pid of Java process which needs to attach
+      --port int           the port of agent server (9288 by default)
       --uid string         the experiment ID
 ```
 
@@ -369,14 +369,14 @@ Usage:
   chaosd attack jvm stress [options] [flags]
 
 Flags:
-      --cpu-count int   the CPU core number need to use
+      --cpu-count int   the CPU core number
   -h, --help            help for stress
-      --mem-size int    the memory size need to locate, the unit is MB
+      --mem-size int    the memory size to be allocated. The unit is MB.
 
 Global Flags:
-      --log-level string   the log level of chaosd, the value can be 'debug', 'info', 'warn' and 'error'
-      --pid int            the pid of Java process which need to attach
-      --port int           the port of agent server (default 9288)
+      --log-level string   the log level of chaosd. The value can be 'debug', 'info', 'warn' and 'error'
+      --pid int            the pid of Java process which needs to attach
+      --port int           the port of agent server (9288 by default)
       --uid string         the experiment ID
 ```
 
